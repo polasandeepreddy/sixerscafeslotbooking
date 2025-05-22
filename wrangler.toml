@@ -1,0 +1,15 @@
+name = "cricket-box"
+compatibility_date = "2023-10-30"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build"
+
+[env.production]
+workers_dev = false
+
+# Enable the Pages Functions to handle client-side routing
+[build.processing]
+  skip_on_asset_pattern = ".*"

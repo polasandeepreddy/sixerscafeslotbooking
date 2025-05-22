@@ -1,0 +1,21 @@
+{
+  "name": "Cricket Box Booking",
+  "short_name": "Cricket Box",
+  "description": "Book your cricket box slot at Sixers Cafe",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "icons": [
+    {
+      "src": "/cricket-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/cricket-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
