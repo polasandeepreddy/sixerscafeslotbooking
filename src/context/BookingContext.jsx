@@ -5,7 +5,7 @@ import { generateSlotsForDate, generateAvailableDates } from "../utils/mockData"
 import { format } from "../utils/dateUtils"
 import { getSupabase } from "../lib/supabase/client"
 import { v4 as uuidv4 } from "uuid"
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid'
 
 
 // Local storage keys
